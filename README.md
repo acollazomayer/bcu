@@ -10,7 +10,7 @@ Comandline tool to get bcu quote
 
 <!-- toc -->
 # Usage
-`npm i -g https://github.com/acollazomayer/bcu.git`
+`npm i -g bcu-dollar-quote`
 # Commands
 `bcu` in terminal to get the quote of the latest day of the previous month
 `bcu --date=DD/MM/YYY` to get the quote of that specific date
