@@ -1,7 +1,7 @@
 bcu
 ===
 
-Comandline tool to get bcu quote 
+Comandline tool to get bcu quote
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/bcu.svg)](https://npmjs.org/package/bcu)
@@ -10,6 +10,7 @@ Comandline tool to get bcu quote
 
 <!-- toc -->
 # Usage
-<!-- usage -->
+`npm i -g https://github.com/acollazomayer/bcu.git`
 # Commands
-<!-- commands -->
+`bcu` in terminal to get the quote of the latest day of the previous month
+`bcu --date=DD/MM/YYY` to get the quote of that specific date
