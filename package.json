@@ -1,0 +1,39 @@
+{
+  "name": "bcu",
+  "description": "Comandline tool to get bcu quote ",
+  "version": "0.0.0",
+  "author": "Agustin Collazo Mayer @acollazomayer",
+  "bin": {
+    "bcu": "./bin/run"
+  },
+  "bugs": "https://github.com/acollazomayer/bcu/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.19",
+    "@oclif/config": "^1.13.3",
+    "@oclif/plugin-help": "^2.2.1",
+    "axios": "^0.19.0",
+    "moment": "^2.24.0",
+    "moment-business": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/acollazomayer/bcu",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "bcu"
+  },
+  "repository": "acollazomayer/bcu"
+}
