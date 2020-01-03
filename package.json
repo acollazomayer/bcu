@@ -1,7 +1,7 @@
 {
   "name": "bcu-dollar-quote",
   "description": "Comandline tool to get bcu quote ",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Agustin Collazo Mayer @acollazomayer",
   "bin": {
     "bcu": "./bin/run"
