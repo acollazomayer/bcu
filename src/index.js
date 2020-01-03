@@ -9,6 +9,7 @@ const laborDay = '01/05'
 const constitutionDay = '18/07'
 const independenceDay = '25/08'
 const chrismas = '25/12'
+const newYearEve = '31/12'
 
 const holidays = [
   newYear,
@@ -16,6 +17,7 @@ const holidays = [
   constitutionDay,
   independenceDay,
   chrismas,
+  newYearEve,
 ]
 
 class BcuCommand extends Command {
@@ -37,7 +39,7 @@ class BcuCommand extends Command {
   }
 
   isHoliday(date) {
-    return holidays.some(holiday => date.isSame(moment(holiday, 'DD/MM')))
+    return holidays.some(holiday => date.format('DD/MM') === holiday)
   }
 
   isBusinessDay(date) {
