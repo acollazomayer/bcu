@@ -11,7 +11,7 @@
     "@oclif/command": "^1.5.19",
     "@oclif/config": "^1.13.3",
     "@oclif/plugin-help": "^2.2.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "moment": "^2.24.0",
     "moment-business": "^3.0.1"
   },
